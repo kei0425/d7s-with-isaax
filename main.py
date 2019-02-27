@@ -37,7 +37,9 @@ def main():
             "d5": int(eq),
             "d1": si,
             "d2": pga,
-            "created": now.strftime("%Y/%m/%d %H:%M:%S")
+            "created": now.strftime("%Y/%m/%d %H:%M:%S"),
+            "lat": 35.658034,
+            "lng": 139.701636
             }
         # データをバッファーする
         am.buffer(payload)
