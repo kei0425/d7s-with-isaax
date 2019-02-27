@@ -43,6 +43,6 @@ def main():
             }
         # データをバッファーする
         am.buffer(payload)
-        # sensor.writeByte(sensor.REG_MODE, 0x02)
+        sensor.writeByte(sensor.REG_MODE, 0x02)
 if __name__ == '__main__':
     main()
